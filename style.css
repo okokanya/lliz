@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: cubic-bezier(.21, .59, .94, .37) 0.3s;
+    background-color: rgb(11, 26, 26);
+}
+
+.fullwidth {
+    /* position: relative; */
+    /* height: 70px; */
+    width: 100%;
+    background-color: rgb(11, 26, 26);
+    margin-bottom: 20px;
+    /* box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff; */
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+    /* position: absolute; */
+    /* top: 0; */
+}
+
+#pp {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.horizontalImageLeft {
+    margin: 0 auto 0 0;
+    display: block;
+}
+
+
+.horizontalImageRight {
+    margin: 0 0 0 auto;
+    display: block;
+}
+
+.threeInARow {
+    width: 30%;
+    margin-right: 3%;
+}
+
+
+.twoInARow {
+    width: 30%;
+    margin-right: 3%;
+}
